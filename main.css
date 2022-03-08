@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    height: 50vh;
+}
+.input-pwd{
+    width: 50vh;
+    transform: translate(37vw, 25vh);
+    justify-content: center;
+    align-items: center;
+}
+.input-pwd-text{
+    transform: translateX(175px);
+    font-size: 32px;
+}
+.bad{
+    background-color: red;
+}
+.okay{
+    background-color: orange;
+}
+.good{
+    background-color: rgb(0, 255, 0);
+}
+#output{
+    position: absolute;
+    top: 35%;
+    width: 2320px;
+    height: 100px;
+    transform: translate(-400px);
+}
+.start{
+    background-color: rgb(180, 180, 180);
+}
+#out-text{
+    position: relative;
+    left: 1290px;
+    top: 34px;
+    font-size: 20px;
+}
+#check{
+    position: absolute;
+    top: 46%;
+    right: 48%;
+    width: 100px;
+}
